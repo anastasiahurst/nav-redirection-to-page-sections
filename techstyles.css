@@ -1,0 +1,56 @@
+.body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+h1, h2 {
+    font-weight: 700;
+}
+h1 {
+    font-size: 2rem;
+}
+p {
+    font-weight: 200;
+    font-size: 1rem;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    background-color: rgb(207, 207, 207);
+    padding: 2rem;
+}
+.nav-link {
+    text-transform: capitalize;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    background-color: rgb(204, 255, 238);
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+}
+
+#main-doc {
+    padding: 2rem;
+}
+.main-section {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 700px) {
+    body {
+        display: flex;
+    }
+    .navbar {
+        width: 25%;
+        max-width: 250px;
+    }
+    #main-doc {
+        width: 75%;
+    }
+}
